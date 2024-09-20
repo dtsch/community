@@ -1,6 +1,6 @@
 """
 Applet: Days Since
-Summary: Days Since Last Incident
+Summary: Days since last incident
 Description: Displays the number of days since the incident supplied in the free text box. Default is the Noodle Incident from Calvin & Hobbes. Based on AccidentFreeDays by Robert Ison.
 Author: Drew Tschetter
 """
