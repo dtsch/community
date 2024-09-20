@@ -1,6 +1,6 @@
 """
 Applet: Days Since
-Summary: Days since last incident
+Summary: Days Since Last Incident
 Description: Displays the number of days since the incident supplied in the free text box. Default is the Noodle Incident from Calvin & Hobbes. Based on AccidentFreeDays by Robert Ison.
 Author: Drew Tschetter
 """
@@ -62,7 +62,6 @@ def get_schema():
                 name = "Last_incident",
                 desc = "Date of the last incident",
                 icon = "calendar",
-				default = "1987-04-22T00:00:00Z",
             ),
             schema.Text(
                 id = "text",
