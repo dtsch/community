@@ -62,6 +62,7 @@ def get_schema():
                 name = "Last_incident",
                 desc = "Date of the last incident",
                 icon = "calendar",
+				default = "1987-04-22T00:00:00Z",
             ),
             schema.Text(
                 id = "text",
